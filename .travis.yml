@@ -1,5 +1,5 @@
 language: c
-script: make defconfig
+script: make defconfig && make
 compiler: gcc
 matrix:
   include:
