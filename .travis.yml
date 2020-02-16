@@ -10,8 +10,3 @@ matrix:
             - ubuntu-toolchain-r-test
           packages:
             - build-essential libncurses5-dev gawk git libssl-dev gettext zlib1g-dev swig unzip time
-      env:
-        - MATRIX_EVAL="CC=gcc-5 && CXX=g++-5"
-
-before_install:
-    - eval "${MATRIX_EVAL}"
